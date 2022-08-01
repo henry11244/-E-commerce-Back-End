@@ -6,7 +6,6 @@ class ProductTag extends Model { }
 
 ProductTag.init(
   {
-
     product_id: {
       type: DataTypes.INTEGER,
       references: {
